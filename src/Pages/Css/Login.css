@@ -1,0 +1,120 @@
+.log_in{
+    width:100%;
+   background: white;
+   padding-top:100px;
+   margin-bottom: 300px;
+    height:80vh;
+    
+}
+.login_container{
+    width:580px;
+   
+    background: beige;
+    margin:auto;
+    padding:40px 60px;
+    padding-top:100px;
+ 
+     height:600px;
+}
+.login_container h1{
+margin:20px 0;
+}
+.login_fields{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    margin-top: 30px;
+}
+ .login_fields input{
+    height: 72px;
+    width:100%;
+    padding-left: 22px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+}
+.log_in button{
+    height: 72px;
+    border: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+    width:450px;
+    align-items: center;
+    font-size: 29px;
+    color:aliceblue;
+    background-color: crimson;
+    padding: 21px;
+    margin-top: 21px;
+
+}
+.signup_agree{
+    font-size: 16px;
+    margin:10px 0;
+    margin-bottom: 67px;
+}
+.signup_agree input{
+width:60px;
+height:30px;
+}
+
+/* Cart Css*/
+.Cart{
+    margin:100px 170px;
+
+}
+.Cart hr{
+    height: 3px;
+    background: #e2e2e2;
+    border:0;
+
+}
+.CartItem_format_main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding:20px 0;
+    color: #454545;
+    gap:70px;
+    font-weight: 300px;
+}
+.cartItem_format{
+    font-size: 17px;
+}
+.cartItem_format img{
+    height:102px;
+
+}
+.cartItem_quantity{
+    color:black;
+    height:65px;
+    background: #fff;
+    border:2px solid #ebebeb
+    
+}
+.cartItems_down{
+    display:flex;
+    margin:100px 0;
+
+}
+.cartItems_total{
+    flex:1;
+    display:flex;
+    margin-right:200px ;
+    flex-direction: column;
+    gap:40px;
+}
+.cartItems_totalItem{
+    display:flex;
+    justify-content: space-between;
+    padding:15px 0;
+}
+.cartItems_totalItem button{
+    width:262px;
+    height:58px;
+    outline: none;
+    background: #ff5a5a;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
